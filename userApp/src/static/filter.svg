@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>filter</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5,7.2324 L10.777,11.0844 C10.917,11.1764 11,11.3334 11,11.5004 L11,18.5654 L13,17.2324 L13,11.5004 C13,11.3334 13.084,11.1764 13.223,11.0844 L19,7.2324 L19,5.0004 L5,5.0004 L5,7.2324 Z M10.5,20.0004 C10.419,20.0004 10.338,19.9804 10.264,19.9404 C10.102,19.8534 10,19.6844 10,19.5004 L10,11.7674 L4.223,7.9164 C4.083,7.8234 4,7.6674 4,7.5004 L4,4.5004 C4,4.2234 4.224,4.0004 4.5,4.0004 L19.5,4.0004 C19.776,4.0004 20,4.2234 20,4.5004 L20,7.5004 C20,7.6674 19.916,7.8234 19.777,7.9164 L14,11.7674 L14,17.5004 C14,17.6674 13.916,17.8234 13.777,17.9164 L10.777,19.9164 C10.694,19.9714 10.597,20.0004 10.5,20.0004 L10.5,20.0004 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-/-filter" transform="translate(-4.000000, -4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="filter" fill="#111111" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

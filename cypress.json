@@ -1,0 +1,13 @@
+{
+    "testUser": {
+        "email": "cypress@test.email",
+        "password": "123456"
+    },
+    "innentialAdmin": {
+        "email": "kris@waat.eu",
+        "password": "123456"
+    },
+    "viewportWidth": 1300,
+    "viewportHeight": 660,
+    "defaultCommandTimeout": 8000
+}

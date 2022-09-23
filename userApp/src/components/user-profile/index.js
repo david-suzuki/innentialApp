@@ -1,0 +1,5 @@
+export { default as ProfileForm } from './ProfileForm'
+export { default as UserAccount } from './UserAccount'
+export { default as UserPersonalGrowth } from './UserPersonalGrowth'
+export { default as UserPosition } from './UserPosition'
+export { default as UserSkills } from './UserSkills'

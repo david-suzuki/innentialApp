@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.7002,7.29978 C18.3002,6.89978 17.7002,6.89978 17.3002,7.29978 L10.0002,14.59978 L6.7002,11.29978 C6.3002,10.89978 5.7002,10.89978 5.3002,11.29978 C4.9002,11.69978 4.9002,12.29978 5.3002,12.69978 L9.3002,16.69978 C9.5002,16.90078 9.7002,16.99978 10.0002,16.99978 C10.3002,16.99978 10.5002,16.90078 10.7002,16.69978 L18.7002,8.69978 C19.0992,8.29978 19.0992,7.69978 18.7002,7.29978" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-/-check" transform="translate(-5.000000, -7.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="check" fill="#ffffff" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "standard",
+    "standard-react",
+    "prettier",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "window": true
+  },
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "react/prop-types": 0,
+    "react/display-name": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
+  }
+}

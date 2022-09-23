@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "styled-jsx/babel",
+    "react-hot-loader/babel",
+    ["babel-plugin-root-import", {
+      "rootPathPrefix": "$",
+      "rootPathSuffix": "./src" // since we suport relative paths you can also go into a parent directory
+    }]
+  ]
+}

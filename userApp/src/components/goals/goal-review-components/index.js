@@ -1,0 +1,5 @@
+export { default as GoalsOverviewPage } from './GoalOverview'
+export { default as GoalSetting } from './GoalSetting'
+export { default as GoalsReviewPage } from './GoalReviewForm'
+export { default as GoalSummary } from './GoalSummary'
+export { GoalItemEdit } from './components'

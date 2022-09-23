@@ -1,0 +1,33 @@
+import slug from 'slug'
+
+// SET CHARMAP FOR SLUG TO MAP SYMBOLS
+;(() => {
+  slug.charmap['#'] = 'hash'
+  slug.charmap['+'] = 'plus'
+  slug.charmap['~'] = 'tilde'
+  slug.charmap['!'] = 'exmark'
+  slug.charmap['@'] = 'at'
+  slug.charmap['$'] = 'dollar'
+  slug.charmap['%'] = 'percent'
+  slug.charmap['^'] = 'up'
+  slug.charmap['&'] = 'and'
+  slug.charmap['*'] = 'star'
+  slug.charmap['('] = 'parenthesesleft'
+  slug.charmap[')'] = 'parenthesesright'
+  slug.charmap['='] = 'equals'
+  slug.charmap['['] = 'sbracketsleft'
+  slug.charmap[']'] = 'sbracketsright'
+  slug.charmap['{'] = 'bracketsleft'
+  slug.charmap['}'] = 'bracketsright'
+  slug.charmap[':'] = 'colon'
+  slug.charmap[';'] = 'scolon'
+  slug.charmap['"'] = 'dquote'
+  slug.charmap["'"] = 'squote'
+  slug.charmap[','] = 'comma'
+  slug.charmap['.'] = 'dot'
+  slug.charmap['?'] = 'qmark'
+  slug.charmap['/'] = 'fslash'
+  slug.charmap['\\'] = 'bslash'
+  slug.charmap['|'] = 'vbar'
+  console.log('Mapped characters to slug')
+})()

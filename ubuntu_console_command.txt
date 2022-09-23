@@ -1,0 +1,46 @@
+1. how to know IP of wsl virtual machine
+	 hostname -I | awk '{print $1}'
+172.23.86.23
+2. how to send graphql query in wsl
+	curl -X POST \
+	-H "Content-Type: application/json" \
+	-d '{"query": "{ hello }"}' \
+	http://localhost:4000/graphql
+3. open mongodb service
+	sudo service mongodb status
+	sudo service mongodb start
+	mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+4. Read os version
+	cat /etc/os-release
+
+
+
+github tokengit 
+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
+
+name = herman
+email = herman041204@gmail.com
+
+C:\Users\Admin
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "YourEmail@example.com"
+
+git checkout feature/events
+git pull
+git checkout feature/events-be
+git rebase origin/feature/events
+if there's conflicts fix it and 
+	git rebase --continue or
+	git -c core.editor=true rebase --continue
+
+CHOKIDAR_USEPOLLING=true
+
+"rules": {
+    "prettier/prettier": ["error",{
+      "endOfLine": "auto"}
+    ]
+ }
+
+
+
+

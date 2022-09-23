@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'innential-secondary';
+  src:  url('fonts2/innential-secondary.eot?5zcaem');
+  src:  url('fonts2/innential-secondary.eot?5zcaem#iefix') format('embedded-opentype'),
+    url('fonts2/innential-secondary.ttf?5zcaem') format('truetype'),
+    url('fonts2/innential-secondary.woff?5zcaem') format('woff'),
+    url('fonts2/innential-secondary.svg?5zcaem#innential-secondary') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon2-"], [class*=" icon2-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'innential-secondary' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon2-users:before {
+  content: "\e900";
+}
+.icon2-skills:before {
+  content: "\e901";
+}
+.icon2-teams:before {
+  content: "\e902";
+}

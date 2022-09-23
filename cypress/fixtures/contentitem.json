@@ -1,0 +1,13 @@
+{
+    "title": "Test Content",
+    "url": "http://test.com/content",
+    "author": "Shakespeare",
+    "type": "Book",
+    "price": {
+        "currency": "CHF",
+        "value": "120"
+    },
+    "relatedPrimarySkills": [
+        "Product|Branding", "Technology|Php"
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="11px" viewBox="0 0 6 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>arrow-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M16.8535,9.1465 C16.6585,8.9515 16.3415,8.9515 16.1465,9.1465 L11.9995,13.2925 L7.8535,9.1465 C7.6585,8.9515 7.3415,8.9515 7.1465,9.1465 C6.9515,9.3415 6.9515,9.6585 7.1465,9.8535 L11.6465,14.3535 C11.7445,14.4515 11.8725,14.5005 11.9995,14.5005 C12.1275,14.5005 12.2555,14.4515 12.3535,14.3535 L16.8535,9.8535 C17.0485,9.6585 17.0485,9.3415 16.8535,9.1465" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-/-small-arrow-left" transform="translate(-9.000000, -6.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="arrow-small" fill="#111111" transform="translate(12.000000, 11.750375) rotate(-270.000000) translate(-12.000000, -11.750375) " xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

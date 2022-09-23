@@ -1,0 +1,29 @@
+{
+  "presets": ["latest"],
+  "plugins": [
+    "transform-runtime",
+    "transform-async-generator-functions",
+    "transform-object-rest-spread",
+    "babel-plugin-bulk-import",
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathPrefix": "~",
+            "rootPathSuffix": "./src"
+          },
+          {
+            "rootPathPrefix": "#",
+            "rootPathSuffix": "./"
+          },
+          {
+            "rootPathPrefix": "$",
+            "rootPathSuffix": "../" // since we suport relative paths you can also go into a parent directory
+          }
+        ]
+      }
+    ]
+
+  ]
+}

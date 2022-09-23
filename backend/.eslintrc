@@ -1,0 +1,36 @@
+{
+  "extends": ["standard", "prettier", "prettier/standard"],
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "plugins": ["import", "prettier"],
+  "rules": {
+    "no-unused-vars": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": [
+        {
+          "rootPathPrefix": "~",
+          "rootPathSuffix": "./src"
+        },
+        {
+          "rootPathPrefix": "#",
+          "rootPathSuffix": "./"
+        },
+        {
+          "rootPathPrefix": "$",
+          "rootPathSuffix": "../" // since we suport relative paths you can also go into a parent directory
+        }
+      ]
+    }
+  }
+}
